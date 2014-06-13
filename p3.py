@@ -13,7 +13,6 @@ def siv(num):
 
 def biggestPrime(num):
     primes = siv(num)
-    
     for index, val in reversed(list(enumerate(primes))):
         if val and num % index == 0: return index
 
